@@ -2,19 +2,17 @@ import java.util.Stack;
 
 public class Buffer{
     private int cont;
-    private Stack pila;
-    public Buffer()
-    {
+    private Stack<Integer> pila;
+    public Buffer(){
         cont = 0;
-        pila = new Stack();
+        pila = new Stack<Integer>();
         // Creación del arreglo (memoria compartida)
     }
-    public void introduceDato(int dato)
-    {
+    public void introduceDato(int dato){
         if(cont < 5){
-            pila.push(new Integer(dato));
+            pila.push(dato);
             
-            System.out.println("Se inserto el dato: " + dato + " en la posición: " + cont);
+            System.out.println("Se inserto el dato: " + dato + " en la posicion: " + cont);
             cont++;
         }
         else{
@@ -30,13 +28,13 @@ public class Buffer{
         // donde se insertó y el dato
         
     }
-    public void sacaDato()
-    {
+    public void sacaDato(){
         if(!pila.empty()){
-            Integer a = (Integer)pila.pop();
+            int a = pila.pop();
+            cont--;
             
             System.out.println("El dato sacado es: " + a + " en la posicion: " + cont);
-            cont--;
+            
         }
         else{
             System.out.println("Buffer vacio");
