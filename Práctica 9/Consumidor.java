@@ -10,7 +10,7 @@ public class Consumidor extends Thread{
     public void run(){
         while(true){
             try{
-                int t = new Random().nextInt(4000) + 1000;
+                int t = new Random().nextInt(2000);
                 this.sleep(t);
             }
             catch(Exception e){

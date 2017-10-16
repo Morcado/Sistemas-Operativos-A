@@ -1,0 +1,17 @@
+Buffer vacio
+Se inserto el dato: 7 en la posicion: 0
+El dato sacado es: 7 en la posicion: 0
+Se inserto el dato: 5 en la posicion: 0
+Se inserto el dato: 12 en la posicion: 1
+El dato sacado es: 12 en la posicion: 1
+Se inserto el dato: 1 en la posicion: 1
+El dato sacado es: 1 en la posicion: 1
+Se inserto el dato: 2 en la posicion: 1
+El dato sacado es: 2 en la posicion: 1
+Se inserto el dato: 6 en la posicion: 1
+El dato sacado es: 6 en la posicion: 1
+Se inserto el dato: 10 en la posicion: 1
+Se inserto el dato: 14 en la posicion: 2
+Se inserto el dato: 2 en la posicion: 3
+El dato sacado es: 2 en la posicion: 3
+El dato sacado es: 14 en la posicion: 2
