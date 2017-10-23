@@ -1,18 +1,19 @@
 import java.util.Random;
 
 public class Agente extends Thread{
-    private Mesa me;
+    private Mesa mesa;
     private int ing1;
     private int ing2;
 
-    public Agente(Mesa me){
-        this.me = me;
+    //constructor
+    public Agente(Mesa mesa){
+        this.mesa = mesa;
     }
 
     public void run(){
         while(true){
             //si la mesa está vacía y nadie está fumando entonces crea los ingredientes
-            if(!me.estaLlena()){
+            if(!mesa.estaLlena() && !mesa.estaFumando()){
 
                 //crea un ingrediente y crea el otro mientras no sea igual al anterior
                 ing1 = new Random().nextInt(3);
@@ -21,11 +22,18 @@ public class Agente extends Thread{
                     ing2 = new Random().nextInt(3);
                 }
 
-                System.out.print("El agente a creado los ingredientes: ");
-                System.out.println(me.cualIngre(ing1) + ", " + me.cualIngre(ing2));
-                
+                System.out.println("El agente a creado los ingredientes: " + mesa.cualIngre(ing1) + ", " + mesa.cualIngre(ing2));
                 //guarda los ingredientes en la mesa
-                me.guardaIngredientes(ing1, ing2);
+                mesa.guardaIngredientes(ing1, ing2);
+            }
+            else{
+                //duerme al agente 1000 segundos para esperar que algun fumador deje de fumar
+                try{
+                    this.sleep(1000);
+                }
+                catch(Exception e){
+                    System.out.println(e);
+                }
             }
         }
     }
