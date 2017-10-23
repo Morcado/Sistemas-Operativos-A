@@ -1,0 +1,59 @@
+Fumador creado con papel
+Fumador creado con tabaco
+Fumador creado con cerillos
+El agente a creado los ingredientes: papel, tabaco
+El fumador con cerillos va a intentar fumar
+El fumador con cerillos esta fumando
+El fumador con cerillos ha dejado de fumar
+El agente a creado los ingredientes: cerillos, tabaco
+El fumador con cerillos va a intentar fumar
+El fumador con cerillos no pudo fumar porque le falta papel
+El fumador con papel va a intentar fumar
+El fumador con papel esta fumando
+El fumador con tabaco va a intentar fumar
+El fumador con tabaco no pudo fumar porque le falta papel
+El fumador con papel ha dejado de fumar
+El agente a creado los ingredientes: papel, tabaco
+El fumador con tabaco va a intentar fumar
+El fumador con tabaco no pudo fumar porque le falta cerillos
+El fumador con cerillos va a intentar fumar
+El fumador con cerillos esta fumando
+El fumador con cerillos ha dejado de fumar
+El agente a creado los ingredientes: papel, cerillos
+El fumador con tabaco va a intentar fumar
+El fumador con tabaco esta fumando
+El fumador con tabaco ha dejado de fumar
+El agente a creado los ingredientes: cerillos, papel
+El fumador con tabaco va a intentar fumar
+El fumador con tabaco esta fumando
+El fumador con tabaco ha dejado de fumar
+El agente a creado los ingredientes: cerillos, tabaco
+El fumador con tabaco va a intentar fumar
+El fumador con tabaco no pudo fumar porque le falta papel
+El fumador con papel va a intentar fumar
+El fumador con papel esta fumando
+El fumador con papel ha dejado de fumar
+El agente a creado los ingredientes: cerillos, tabaco
+El fumador con tabaco va a intentar fumar
+El fumador con tabaco no pudo fumar porque le falta papel
+El fumador con cerillos va a intentar fumar
+El fumador con cerillos no pudo fumar porque le falta papel
+El fumador con papel va a intentar fumar
+El fumador con papel esta fumando
+El fumador con papel ha dejado de fumar
+El agente a creado los ingredientes: tabaco, papel
+El fumador con papel va a intentar fumar
+El fumador con papel no pudo fumar porque le falta cerillos
+El fumador con tabaco va a intentar fumar
+El fumador con tabaco no pudo fumar porque le falta cerillos
+El fumador con cerillos va a intentar fumar
+El fumador con cerillos esta fumando
+El fumador con cerillos ha dejado de fumar
+El agente a creado los ingredientes: cerillos, tabaco
+El fumador con papel va a intentar fumar
+El fumador con papel esta fumando
+El fumador con papel ha dejado de fumar
+El agente a creado los ingredientes: cerillos, tabaco
+El fumador con papel va a intentar fumar
+El fumador con papel esta fumando
+El fumador con papel ha dejado de fumar

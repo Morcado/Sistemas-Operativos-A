@@ -1,0 +1,8 @@
+Problema: se detenia el programa cuando el primer fumador 
+dejaba de fumar, entonces ni el agente ni los siguientes fumadores seguían haciendo sus tareas, y los
+fumadores no sabian que aun no terminaba de fumar el fumador actual... el agente siempre estaba poniendo ingredientes
+
+Solucion: dormir al agente un determinado tiempo para permitir que el fumador actual terminara su 
+ejecucion y que el agente no pusiera los ingredientes antes de que terminara
+
+horas invertidas: 4 hroas
